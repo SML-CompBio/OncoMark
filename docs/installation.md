@@ -1,46 +1,58 @@
 ## Installation
-ACSCeND is based on the deep learning framework [PyTorch](https://pytorch.org). It is important for users to choose the suitable version of PyTorch based on different compute platforms. The [official instruction](https://pytorch.org/get-started/locally/) may help you install PyTorch correctly.
 
-### Step 1: Install PyTorch
-Visit the [PyTorch installation page](https://pytorch.org/get-started/locally/) to select the appropriate version for your platform (CPU/GPU) and Python environment.
+OncoMark is built on the deep learning framework [TensorFlow](https://www.tensorflow.org/). It is important to install a suitable version of TensorFlow depending on your compute platform (CPU/GPU) and Python environment. The [official TensorFlow installation guide](https://www.tensorflow.org/install) provides detailed instructions.
 
-For example, to install PyTorch with CUDA support:
+### Step 1: Install TensorFlow
+Visit the [TensorFlow installation guide](https://www.tensorflow.org/install) to choose the appropriate version for your system.
+
+#### Example: Install TensorFlow with GPU Support
+For systems with NVIDIA GPUs and CUDA support:
 
 ```bash
-# Install PyTorch with CUDA (adjust the version as needed)
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+# Install TensorFlow with GPU support
+pip install tensorflow
 ```
 
-Or for CPU-only:
+#### Example: Install TensorFlow for CPU-Only
+For systems without GPUs:
 
 ```bash
-# Install PyTorch for CPU-only
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+# Install TensorFlow for CPU-only
+pip install tensorflow
 ```
 
-### Step 2: Install ACSCeND
-After successfully installing PyTorch, you can install ACSCeND directly from PyPI:
+### Step 2: Install OncoMark
+After successfully installing TensorFlow, you can install OncoMark directly from PyPI:
 
 ```bash
-# pip
-pip install ACSCeND
+# Install OncoMark from PyPI
+pip install OncoMark
 ```
 
-Alternatively, if you want the latest version from the GitHub repository, use:
+Alternatively, to install the latest version directly from the GitHub repository:
 
 ```bash
-# Install directly from GitHub
-pip install git+https://github.com/SML-CompBio/ACSCEND.git
+# Install OncoMark from GitHub
+pip install git+https://github.com/SML-CompBio/OncoMark.git
 ```
 
 ### Step 3: Verify Installation
-To confirm that ACSCeND has been installed successfully, run the following command in Python:
+To verify that OncoMark is installed correctly, run the following commands in Python:
 
 ```python
-import ACSCeND
-print(ACSCeND.__version__)
+import OncoMark
+print(OncoMark.__version__)
 ```
 
-You’re all set! Start exploring the features of ACSCeND.
+If the command outputs the version number of OncoMark, the installation was successful.
+
+### Additional Requirements
+Ensure that any dependencies, such as `joblib` or `pandas`, are also installed. These will typically be installed automatically with OncoMark, but you can manually install them if needed:
+
+```bash
+pip install joblib pandas scipy numpy
+```
+
+You’re ready to start using OncoMark! Explore its features to analyze hallmark activity from transcriptomics data.
 
 ---
