@@ -57,9 +57,9 @@ The OncoMark framework is a multi-task neural network designed to predict hallma
     - Initialized with the **He uniform initializer** for efficient convergence.
 
  - **Task-Specific Layers**:
-    - Each hallmark task has:
-      - A dense layer with 16 units and **ReLU activation** for hallmark-specific feature learning.
-      - An output layer with a single neuron and **sigmoid activation** for binary classification.
+     - Each hallmark task has:
+        - A dense layer with 16 units and **ReLU activation** for hallmark-specific feature learning.
+        - An output layer with a single neuron and **sigmoid activation** for binary classification.
 
 This architecture outputs probability scores for all 10 hallmark tasks simultaneously. **Binary cross-entropy loss** was computed independently for each task, and a weighted average of these losses ensured balanced learning.
 
@@ -82,15 +82,14 @@ This architecture outputs probability scores for all 10 hallmark tasks simultane
     - Data from all hallmark tasks were merged and shuffled to avoid hallmark-specific biases and ensure uniform exposure.
 
 ### Validation and Metrics
-- External validation was conducted on **159 samples** from six independent studies.
-- Key metrics included:
-
-   - **F1 Score**
-   - **Accuracy Score**
-   - **Precision and Recall**
-   - **Balanced Accuracy**
-   - **Precision-Recall Curve**
-   - **ROC Curve**
+ - External validation was conducted on **159 samples** from six independent studies.
+ - Key metrics included:
+    - **F1 Score**
+    - **Accuracy Score**
+    - **Precision and Recall**
+    - **Balanced Accuracy**
+    - **Precision-Recall Curve**
+    - **ROC Curve**
 
 These metrics demonstrated OncoMark's ability to generalize effectively across diverse datasets, confirming its robustness and applicability to real-world scenarios.
 
