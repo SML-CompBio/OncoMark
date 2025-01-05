@@ -49,17 +49,17 @@ These datasets were used to evaluate the sensitivity, specificity, and generaliz
 The OncoMark framework is a multi-task neural network designed to predict hallmark activity with high fidelity. Its architecture reflects the complex interdependencies of hallmark activity in tumor biology.
 
 ### Model Architecture
-- **Input Layer**:
-   - Comprises 9,326 neurons, representing preprocessed gene expression features.
+ - **Input Layer**:
+    - Comprises 9,326 neurons, representing preprocessed gene expression features.
 
-- **Shared Base Layer**:
-   - A dense layer with 64 units and **ReLU activation**, capturing pan-hallmark characteristics.
-   - Initialized with the **He uniform initializer** for efficient convergence.
+ - **Shared Base Layer**:
+    - A dense layer with 64 units and **ReLU activation**, capturing pan-hallmark characteristics.
+    - Initialized with the **He uniform initializer** for efficient convergence.
 
-- **Task-Specific Layers**:
-   - Each hallmark task has:
-     - A dense layer with 16 units and **ReLU activation** for hallmark-specific feature learning.
-     - An output layer with a single neuron and **sigmoid activation** for binary classification.
+ - **Task-Specific Layers**:
+    - Each hallmark task has:
+      - A dense layer with 16 units and **ReLU activation** for hallmark-specific feature learning.
+      - An output layer with a single neuron and **sigmoid activation** for binary classification.
 
 This architecture outputs probability scores for all 10 hallmark tasks simultaneously. **Binary cross-entropy loss** was computed independently for each task, and a weighted average of these losses ensured balanced learning.
 
@@ -83,7 +83,8 @@ This architecture outputs probability scores for all 10 hallmark tasks simultane
 
 ### Validation and Metrics
 - External validation was conducted on **159 samples** from six independent studies.
- - Key metrics included:
+- Key metrics included:
+
    - **F1 Score**
    - **Accuracy Score**
    - **Precision and Recall**
