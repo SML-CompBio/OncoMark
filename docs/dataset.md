@@ -30,6 +30,7 @@ For external validation, the model was evaluated on synthetic datasets derived f
    (159 patients in total).
 
 Additionally, bulk transcriptomic data were collected from publicly available real-world datasets, including:
+
 - **The Cancer Genome Atlas (TCGA)**: 6,679 samples.
 - **MET500**: 868 samples.
 - **POG570**: 570 samples.
@@ -64,31 +65,31 @@ This architecture outputs probability scores for all 10 hallmark tasks simultane
 
 ### Training Procedure
 1. **Dataset Preparation**:
-   - A balanced dataset of **67,930 samples** with hallmark-positive and hallmark-negative samples was used.
-   - Training: 57,735 samples (85%).
-   - Validation: 10,195 samples (15%).
-   - Train-test splits were conducted separately for each hallmark to maintain balanced representation.
+    - A balanced dataset of **67,930 samples** with hallmark-positive and hallmark-negative samples was used.
+    - Training: 57,735 samples (85%).
+    - Validation: 10,195 samples (15%).
+    - Train-test splits were conducted separately for each hallmark to maintain balanced representation.
 
 2. **Optimization**:
-   - **Optimizer**: Adam with a learning rate of 0.0001.
-   - **Learning Rate Scheduler**: Reduced learning rate by 0.5 after 3 epochs of no improvement (minimum: 1e-6).
-   - **Early Stopping**: Halted training after 6 epochs with no validation improvement.
+    - **Optimizer**: Adam with a learning rate of 0.0001.
+    - **Learning Rate Scheduler**: Reduced learning rate by 0.5 after 3 epochs of no improvement (minimum: 1e-6).
+    - **Early Stopping**: Halted training after 6 epochs with no validation improvement.
 
 3. **Epochs**:
-   - Training conducted for **50 epochs**. Gains in validation performance became marginal, leading to early termination.
+    - Training conducted for **50 epochs**. Gains in validation performance became marginal, leading to early termination.
 
 4. **Batching**:
-   - Data from all hallmark tasks were merged and shuffled to avoid hallmark-specific biases and ensure uniform exposure.
+    - Data from all hallmark tasks were merged and shuffled to avoid hallmark-specific biases and ensure uniform exposure.
 
 ### Validation and Metrics
 - External validation was conducted on **159 samples** from six independent studies.
 - Key metrics included:
-  - **F1 Score**
-  - **Accuracy Score**
-  - **Precision and Recall**
-  - **Balanced Accuracy**
-  - **Precision-Recall Curve**
-  - **ROC Curve**
+   - **F1 Score**
+   - **Accuracy Score**
+   - **Precision and Recall**
+   - **Balanced Accuracy**
+   - **Precision-Recall Curve**
+   - **ROC Curve**
 
 These metrics demonstrated OncoMark's ability to generalize effectively across diverse datasets, confirming its robustness and applicability to real-world scenarios.
 
