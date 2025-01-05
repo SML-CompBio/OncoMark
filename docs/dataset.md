@@ -8,21 +8,21 @@ OncoMark leverages an extensive and diverse collection of datasets to train and 
 We utilized **2.7 million single-cell transcriptomes** from 14 tumor types, collected from 922 patients across 51 studies in the **Weizmann 3CA repository**, to generate synthetic datasets for model training. Key steps include:
 
 1. **Quality Control**:
-   - Excluded cells with:
-     - Mitochondrial transcript content > 15%.
-     - Fewer than 200 or more than 6,000 mRNA transcripts.
-   - Curated hallmark-related gene sets from multiple databases, refined through manual literature review.
+    - Excluded cells with:
+      - Mitochondrial transcript content > 15%.
+      - Fewer than 200 or more than 6,000 mRNA transcripts.
+    - Curated hallmark-related gene sets from multiple databases, refined through manual literature review.
 
 2. **Hallmark Activity Scoring**:
-   - Computed **Digital Scores** for 10 cancer hallmarks using the Mann-Whitney U test.
-   - Used **Otsu’s thresholding** for binary classification of hallmark activity.
+    - Computed **Digital Scores** for 10 cancer hallmarks using the Mann-Whitney U test.
+    - Used **Otsu’s thresholding** for binary classification of hallmark activity.
 
 3. **Synthetic Biopsy Creation**:
-   - Aggregated 200 hallmark-specific cells per patient sample.
-   - Generated separate synthetic datasets with positive and negative ground truths for robust model training.
+    - Aggregated 200 hallmark-specific cells per patient sample.
+    - Generated separate synthetic datasets with positive and negative ground truths for robust model training.
 
 4. **Preprocessing**:
-   - Transformed data into rank space, followed by **log2-transformation** and standardization (mean = 0, standard deviation = 1).
+    - Transformed data into rank space, followed by **log2-transformation** and standardization (mean = 0, standard deviation = 1).
 
 ### External Validation Datasets
 For external validation, the model was evaluated on synthetic datasets derived from six independent studies:
@@ -50,16 +50,16 @@ The OncoMark framework is a multi-task neural network designed to predict hallma
 
 ### Model Architecture
 - **Input Layer**:
-  - Comprises 9,326 neurons, representing preprocessed gene expression features.
+   - Comprises 9,326 neurons, representing preprocessed gene expression features.
 
 - **Shared Base Layer**:
-  - A dense layer with 64 units and **ReLU activation**, capturing pan-hallmark characteristics.
-  - Initialized with the **He uniform initializer** for efficient convergence.
+   - A dense layer with 64 units and **ReLU activation**, capturing pan-hallmark characteristics.
+   - Initialized with the **He uniform initializer** for efficient convergence.
 
 - **Task-Specific Layers**:
-  - Each hallmark task has:
-    - A dense layer with 16 units and **ReLU activation** for hallmark-specific feature learning.
-    - An output layer with a single neuron and **sigmoid activation** for binary classification.
+   - Each hallmark task has:
+     - A dense layer with 16 units and **ReLU activation** for hallmark-specific feature learning.
+     - An output layer with a single neuron and **sigmoid activation** for binary classification.
 
 This architecture outputs probability scores for all 10 hallmark tasks simultaneously. **Binary cross-entropy loss** was computed independently for each task, and a weighted average of these losses ensured balanced learning.
 
@@ -83,7 +83,7 @@ This architecture outputs probability scores for all 10 hallmark tasks simultane
 
 ### Validation and Metrics
 - External validation was conducted on **159 samples** from six independent studies.
-- Key metrics included:
+ - Key metrics included:
    - **F1 Score**
    - **Accuracy Score**
    - **Precision and Recall**
