@@ -9,7 +9,7 @@ setup(
     url='https://github.com/SML-CompBio/OncoMark',
     author='Shreyansh Priyadarshi',
     author_email='shreyansh.priyadarshi02@gmail.com',
-    license='MIT License',
+    license='Apache-2.0 license',
     packages=find_packages(),
     package_data={'OncoMark': ['hallmark_model.keras', 'hallmark_scaler.joblib', 'hallmark_feature.txt']},
     include_package_data=True,
