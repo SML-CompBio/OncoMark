@@ -49,6 +49,8 @@ You can use the hosted web server directly:
 
 [OncoMark Web Server](https://iamspriyadarshi-oncomark.hf.space/)
 
+---
+
 ## Contributors ✨
 
 <table>
@@ -57,6 +59,8 @@ You can use the hosted web server directly:
     <td align="center"><a href="https://github.com/iamcamellia"><img src="https://avatars.githubusercontent.com/iamcamellia" width="100px;" alt=""/><br /><sub><b>Camellia Mazumder</b></sub></a></td>
   </tr>
 </table>
+
+---
 
 ## Suggestions
 
