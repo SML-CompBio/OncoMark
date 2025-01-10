@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='OncoMark',
-    version='1.0',    
+    version='1.0.0',    
     url='https://github.com/SML-CompBio/OncoMark',
     author='Shreyansh Priyadarshi',
     author_email='shreyansh.priyadarshi02@gmail.com',
