@@ -4,6 +4,8 @@
 
 OncoMark leverages an extensive and diverse collection of datasets to train and validate its multi-task learning framework. These datasets span synthetic and real-world transcriptomics data, ensuring robust performance across diverse applications in oncology research.
 
+The data is freely available at [**Dryad**](https://doi.org/10.5061/dryad.zw3r228jc)
+
 ### Synthetic Dataset Generation
 We utilized **2.7 million single-cell transcriptomes** from 14 tumor types, collected from 922 patients across 51 studies in the **Weizmann 3CA repository**, to generate synthetic datasets for model training. Key steps include:
 
