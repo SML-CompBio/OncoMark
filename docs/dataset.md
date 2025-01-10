@@ -52,6 +52,7 @@ The OncoMark framework is a multi-task neural network designed to predict hallma
 
 ### Model Architecture
 ![](Oncomark_arch.svg)
+
  - **Input Layer**:
     - Comprises 9,326 neurons, representing preprocessed gene expression features.
 
