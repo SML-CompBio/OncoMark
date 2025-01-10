@@ -27,7 +27,7 @@ Comprehensive documentation is available at:
 
 ```python
 import pandas as pd
-from oncomark import predict_hallmark_scores
+from OncoMark import predict_hallmark_scores
 
 # Load input data as a pandas DataFrame. Genes must be in column.
 input_data = pd.read_csv('input_data.csv', index_col=0)
