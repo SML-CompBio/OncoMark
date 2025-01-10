@@ -10,7 +10,7 @@ For systems with NVIDIA GPUs and CUDA support:
 
 ```bash
 # Install TensorFlow with GPU support
-pip install tensorflow
+pip install tensorflow[and-cuda]
 ```
 
 #### Example: Install TensorFlow for CPU-Only
