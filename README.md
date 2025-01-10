@@ -6,6 +6,8 @@
 
 ## Installation
 
+[![PyPI version](https://badge.fury.io/py/OncoMark.svg)](https://pypi.org/project/OncoMark/)
+
 Install OncoMark using pip:
 
 ```bash
