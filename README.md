@@ -51,17 +51,6 @@ You can use the hosted web server directly:
 
 ---
 
-## Contributors ✨
-
-<table>
-  <tr>
-    <td align="center"><a href="https://github.com/iamspriyadarshi"><img src="https://avatars.githubusercontent.com/iamspriyadarshi" width="100px;" alt=""/><br /><sub><b>Shreyansh Priyadarshi</b></sub></a></td>
-    <td align="center"><a href="https://github.com/iamcamellia"><img src="https://avatars.githubusercontent.com/iamcamellia" width="100px;" alt=""/><br /><sub><b>Camellia Mazumder</b></sub></a></td>
-  </tr>
-</table>
-
----
-
 ## Suggestions
 
 We welcome suggestions! If you have any ideas or feedback to improve OncoMark, please reach out to [Shreyansh Priyadarshi](mailto:shreyansh.priyadarshi02@gmail.com).
