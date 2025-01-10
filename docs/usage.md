@@ -14,7 +14,7 @@ Before using OncoMark, ensure you have your transcriptomics data in a pandas `Da
 
 ```python
 import pandas as pd
-from oncomark import predict_hallmark_scores
+from OncoMark import predict_hallmark_scores
 ```
 
 #### Step 2: Load Input Data
@@ -61,7 +61,7 @@ You can use the hosted web server to upload your data and obtain hallmark activi
 
 ### Example Data
 
-You can find example input data for testing in the `data` directory of the GitHub repository or use the following snippet to create a sample DataFrame:
+You can find example input data for testing in the `test` directory of the GitHub repository or use the following snippet to create a sample DataFrame:
 
 ```python
 import pandas as pd
