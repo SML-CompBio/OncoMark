@@ -1,4 +1,3 @@
-# OncoMark
 ![](docs/Oncomark_poster.png)
 
 **OncoMark** is a Python package designed to systematically quantify hallmark activity using transcriptomics data from routine tumor biopsies. Ideal for applications in oncology research, personalized medicine, and biomarker discovery.
