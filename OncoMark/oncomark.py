@@ -3,6 +3,7 @@ import joblib
 import pandas as pd
 import numpy as np
 from scipy.stats import rankdata
+import os
 
 def predict_hallmark_scores(input_df: pd.DataFrame) -> pd.DataFrame:
     """
@@ -20,11 +21,11 @@ def predict_hallmark_scores(input_df: pd.DataFrame) -> pd.DataFrame:
     feature_file = 'hallmark_feature.txt'
 
     # Load the pre-trained model and scaler
-    model = tf.keras.models.load_model(model_path)
-    scaler = joblib.load(scaler_path)
+    model = tf.keras.models.load_model(os.path.join(os.path.dirname(__file__), model_path))
+    scaler = joblib.load(os.path.join(os.path.dirname(__file__), scaler_path))
 
     # Load feature names
-    with open(feature_file, 'r') as file:
+    with open((os.path.join(os.path.dirname(__file__), feature_file)), 'r') as file:
         feature_names = file.read().splitlines()
 
     # Define hallmark tasks
