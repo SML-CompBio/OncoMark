@@ -50,7 +50,7 @@ If the command outputs the version number of OncoMark, the installation was succ
 Ensure that any dependencies, such as `joblib` or `pandas`, are also installed. These will typically be installed automatically with OncoMark, but you can manually install them if needed:
 
 ```bash
-pip install joblib pandas scipy numpy
+pip install joblib==1.4.2 pandas==2.2.3 scipy==1.14.1 numpy==2.0.2
 ```
 
 You’re ready to start using OncoMark! Explore its features to analyze hallmark activity from transcriptomics data.
