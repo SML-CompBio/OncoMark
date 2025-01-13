@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="docs/Oncomark_poster.png" alt="Oncomark Poster">
+  <img src="Oncomark_poster.png" alt="Oncomark Poster">
 </div>
 
 ## Overview
