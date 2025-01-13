@@ -1,4 +1,6 @@
-![](Oncomark_poster.png)
+<div align="center">
+  <img src="docs/Oncomark_poster.png" alt="Oncomark Poster">
+</div>
 
 ## Overview
 
