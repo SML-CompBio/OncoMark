@@ -55,7 +55,7 @@ OncoMark also provides a user-friendly web interface for those who prefer not to
 
 You can use the hosted web server to upload your data and obtain hallmark activity predictions:
 
-[OncoMark Web Server](https://iamspriyadarshi-oncomark.hf.space/)
+[OncoMark Web Server](https://oncomark-ai.hf.space/)
 
 ---
 
