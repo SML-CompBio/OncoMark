@@ -54,7 +54,7 @@ OncoMark also provides a web server for easy interaction.
 
 You can use the hosted web server directly:
 
-[OncoMark Web Server](https://iamspriyadarshi-oncomark.hf.space/)
+[OncoMark Web Server](https://oncomark-ai.hf.space/)
 
 ---
 
