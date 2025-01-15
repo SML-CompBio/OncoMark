@@ -27,9 +27,9 @@ We utilized **2.7 million single-cell transcriptomes** from 14 tumor types, coll
     - Transformed data into rank space, followed by **log2-transformation** and standardization (mean = 0, standard deviation = 1).
 
 ### External Validation Datasets
-For external validation, the model was evaluated on synthetic datasets derived from six independent studies:
-- **Dong et al. (2020)**, **Yost et al. (2019)**, **Pal et al. (2021)**, **Griffiths et al. (2021)**, **Gao et al. (2021)**, **Nam et al. (2019)**  
-   (159 patients in total).
+For external validation, the model was evaluated on synthetic datasets derived from five independent studies:
+- **Dong et al. (2020)**, **Yost et al. (2019)**, **Pal et al. (2021)**, **Gao et al. (2021)**, **Nam et al. (2019)**  
+   (95 patients in total).
 
 Additionally, bulk transcriptomic data were collected from publicly available real-world datasets, including:
 
@@ -86,7 +86,7 @@ This architecture outputs probability scores for all 10 hallmark tasks simultane
     - Data from all hallmark tasks were merged and shuffled to avoid hallmark-specific biases and ensure uniform exposure.
 
 ### Validation and Metrics
- - External validation was conducted on **159 samples** from six independent studies.
+ - External validation was conducted on **95 samples** from five independent studies.
  - Key metrics included:
     - **F1 Score**
     - **Accuracy Score**
