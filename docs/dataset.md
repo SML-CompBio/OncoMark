@@ -97,7 +97,7 @@ This architecture outputs probability scores for all 10 hallmark tasks simultane
     - **ROC Curve**
 
 These metrics demonstrated OncoMark's ability to generalize effectively across diverse datasets, confirming its robustness and applicability to real-world scenarios.
-![](oncomark_algo.png)
+![image](https://github.com/user-attachments/assets/d4eebc50-8b26-4a58-9b4b-1f4716b217a5)
 
 ---
 
