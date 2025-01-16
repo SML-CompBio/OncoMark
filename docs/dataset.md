@@ -1,5 +1,5 @@
 # Datasets and Model Training
-![](Oncomark_figure.png)
+![image](https://github.com/user-attachments/assets/d35888cc-9484-4557-b799-f79423903949)
 
 ## Datasets
 
