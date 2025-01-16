@@ -97,6 +97,7 @@ This architecture outputs probability scores for all 10 hallmark tasks simultane
 
 These metrics demonstrated OncoMark's ability to generalize effectively across diverse datasets, confirming its robustness and applicability to real-world scenarios.
 ![](oncomark_algo.png)
+
 ---
 
 This page provides an overview of the data and methodology behind OncoMark, ensuring transparency and reproducibility for researchers and practitioners. For detailed descriptions of the model architecture, refer to the supplementary appendix.
