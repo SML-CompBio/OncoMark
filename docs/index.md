@@ -1,7 +1,6 @@
 <div align="center">
   <img src="https://github.com/user-attachments/assets/4da8fdff-41dd-49aa-b4f0-32ed1806a3bc" alt="Oncomark Poster">
 </div>
-<br>
 
 ## Overview
 
