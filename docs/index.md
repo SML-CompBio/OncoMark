@@ -2,6 +2,8 @@
   <img src="https://github.com/user-attachments/assets/4da8fdff-41dd-49aa-b4f0-32ed1806a3bc" alt="Oncomark Poster">
 </div>
 
+---
+
 ## Overview
 
 **OncoMark** is an advanced computational tool designed to predict cancer hallmark activity from transcriptomic data derived from biopsy samples. Built on a robust **neural multi-task learning (N-MTL) framework**, OncoMark bridges a critical gap in molecular oncology by offering a comprehensive model to annotate and interpret hallmark activity for individual tumors. 
