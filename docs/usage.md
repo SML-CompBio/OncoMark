@@ -37,7 +37,7 @@ Load your transcriptomics data into a pandas `DataFrame`. The data should be for
 
 ```python
 # Load input data as a pandas DataFrame
-input_data = pd.read_csv('path_to_your_data.csv', index_col=0)
+input_data = pd.read_csv('model_test_data.csv', index_col=0)
 ```
 
 #### Step 3: Predict Hallmark Scores
@@ -71,6 +71,8 @@ You can use the hosted web server to upload your data and obtain hallmark activi
 
 [OncoMark Web Server](https://oncomark-ai.hf.space/)
 
+The comprehensive video detailing how to use OncoMark web-server is embedded below:
+
 <div style="padding:42.86% 0 0 0;position:relative;">
   <iframe src="https://player.vimeo.com/video/1083623369?h=3bc9b08821&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
     frameborder="0" 
@@ -86,7 +88,6 @@ You can use the hosted web server to upload your data and obtain hallmark activi
 
 ### Notes and Tips
 
-- Ensure your input data contains genes matching the feature names used during model training.
 - Ensure that the genes is in the columns of the datasets.
 - Genes missing from the input data but used during model training will be filled with zeros, while additional genes not used in training will be ignored.
 - Check the [Documentation](https://oncomark.readthedocs.io/en/latest/) for troubleshooting tips and advanced usage.
