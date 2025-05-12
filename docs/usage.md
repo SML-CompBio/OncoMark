@@ -4,9 +4,23 @@ OncoMark provides a Python API and a web interface to quantify hallmark activity
 
 ---
 
+### Example Data
+
+You can find example input data for testing in the `test` directory of the GitHub repository:
+
+[OncoMark Test Data](https://github.com/SML-CompBio/OncoMark/blob/main/test/model_test_data.csv)
+
+---
+
 ### Python API
 
 The Python API allows you to directly process data and predict hallmark scores using the pre-trained model provided with the package.
+
+#### Step 0: Install Packages
+
+```bash
+pip install OncoMark
+```
 
 #### Step 1: Import Required Libraries
 
@@ -67,25 +81,6 @@ You can use the hosted web server to upload your data and obtain hallmark activi
 </div>
 
 <script src="https://player.vimeo.com/api/player.js"></script>
----
-
-### Example Data
-
-You can find example input data for testing in the `test` directory of the GitHub repository or use the following snippet to create a sample DataFrame:
-
-```python
-import pandas as pd
-import numpy as np
-
-# Generate random example data
-genes = ['Gene1', 'Gene2', 'Gene3', 'Gene4']
-samples = ['Sample1', 'Sample2', 'Sample3']
-data = np.random.rand(len(samples), len(genes))
-
-# Create a DataFrame
-example_data = pd.DataFrame(data, index=samples, columns=genes)
-print(example_data)
-```
 
 ---
 
