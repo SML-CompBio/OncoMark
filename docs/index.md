@@ -8,12 +8,6 @@
 
 **OncoMark** is an advanced computational tool designed to predict cancer hallmark activity from transcriptomic data derived from biopsy samples. Built on a robust **neural multi-task learning (N-MTL) framework**, OncoMark bridges a critical gap in molecular oncology by offering a comprehensive model to annotate and interpret hallmark activity for individual tumors. 
 
-Developed through a collaborative effort between the research groups of [Prof. Shubhasis Haldar](https://www.shubhasis-haldar-cmt.com/) at the [SN Bose National Centre for Basic Sciences](https://www.bose.res.in/) and [Prof. Debayan Gupta](https://debayangupta.com/) at [Ashoka University](https://www.ashoka.edu.in/home/), OncoMark leverages cutting-edge computational methods to address the limitations of current molecular oncology approaches. This tool integrates state-of-the-art deep learning methodologies with domain-specific insights to enable precise and scalable hallmark analysis, advancing cancer diagnostics and treatment planning.
-
----
-
-## Research in Context
-
 The detailed overview of OncoMark is provided in the following video:
 
 <div style="padding:42.86% 0 0 0;position:relative;">
@@ -26,6 +20,12 @@ The detailed overview of OncoMark is provided in the following video:
 </div>
 
 <script src="https://player.vimeo.com/api/player.js"></script>
+
+Developed through a collaborative effort between the research groups of [Prof. Shubhasis Haldar](https://www.shubhasis-haldar-cmt.com/) at the [SN Bose National Centre for Basic Sciences](https://www.bose.res.in/) and [Prof. Debayan Gupta](https://debayangupta.com/) at [Ashoka University](https://www.ashoka.edu.in/home/), OncoMark leverages cutting-edge computational methods to address the limitations of current molecular oncology approaches. This tool integrates state-of-the-art deep learning methodologies with domain-specific insights to enable precise and scalable hallmark analysis, advancing cancer diagnostics and treatment planning.
+
+---
+
+## Research in Context
 
 ### Evidence Before This Study
 
