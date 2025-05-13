@@ -14,6 +14,19 @@ Developed through a collaborative effort between the research groups of [Prof. S
 
 ## Research in Context
 
+The detailed overview of OncoMark is provided in the following video:
+
+<div style="padding:42.86% 0 0 0;position:relative;">
+  <iframe src="https://player.vimeo.com/video/1083725494?h=a8c71d9875&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
+    frameborder="0" 
+    allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" 
+    style="position:absolute;top:0;left:0;width:100%;height:100%;" 
+    title="OncoMark Detailed Overview">
+  </iframe>
+</div>
+
+<script src="https://player.vimeo.com/api/player.js"></script>
+
 ### Evidence Before This Study
 
 Despite significant advances in cancer research and machine learning, there has been no computational framework capable of **comprehensively predicting cancer hallmark activity** from tumor biopsy samples. Previous studies have predominantly focused on specific molecular pathways or hallmark subsets, leaving clinicians without an integrated model to interpret hallmark activity for individual patients. The lack of wet-lab methods to annotate hallmark activity in biopsy samples has further impeded progress, limiting the application of these insights in clinical practice. A literature search using terms such as **“(Predicting OR Classifying OR Annotating) AND (cancer hallmarks) AND (Deep OR Machine Learning) OR (Artificial Intelligence OR AI)”** highlighted this critical gap in computational oncology.
