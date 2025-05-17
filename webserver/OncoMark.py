@@ -21,6 +21,7 @@ st.image("oncomark_title.png", caption="", use_container_width=True)
 # Sidebar for uploading data
 st.sidebar.header("Upload Data")
 uploaded_file = st.sidebar.file_uploader("Upload your data file (CSV)", type=["csv"])
+st.sidebar.markdown("[Need help? View tutorial](https://oncomark.readthedocs.io/en/latest/usage/)", unsafe_allow_html=True)
 
 # Description and Instructions
 # st.write("AI to predict cancer hallmarks from transcriptomics data.")
