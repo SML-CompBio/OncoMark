@@ -39,9 +39,9 @@ Additionally, bulk transcriptomic data were collected from publicly available re
 - **POG570**: 570 samples.
 - **Cancer Cell Line Encyclopedia (CCLE)**: 1,019 samples.
 - **TARGET**: 734 samples.
-- **PCAWG**: 1,521 samples.
+- **PCAWG**: 1,210 samples.
 - **GTEx**: 8,228 normal samples.
-- **ANTE**: 120 normal samples.
+- **ENCODE**: 329 normal samples.
 
 These datasets were used to evaluate the sensitivity, specificity, and generalizability of OncoMark in predicting hallmark activity.
 
