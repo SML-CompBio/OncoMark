@@ -38,7 +38,7 @@ Despite significant advances in cancer research and machine learning, there has 
 OncoMark addresses this unmet need by introducing a comprehensive neural multi-task learning (N-MTL) framework. This innovative tool employs synthetic biopsy datasets annotated with hallmark activity, reflecting real-world tumor biology while maintaining clinical relevance. Key features include:
 
 - **Multi-task learning**: Captures interdependencies among cancer hallmarks, providing a holistic view of tumor biology beyond isolated predictions.
-- **Extensive validation**: Demonstrated reproducibility and generalizability across five independent datasets with 95 patient samples. Additional external validation with over **20,000 samples** (11,679 cancer and 8,348 normal) reinforces its robustness.
+- **Extensive validation**: Demonstrated reproducibility and generalizability across five independent datasets with 95 patient samples. Additional external validation on about **20,000 samples** (11,080 cancer and 8,557 normal) reinforces its robustness.
 - **Accessibility**: A user-friendly web interface allows seamless access for oncologists and researchers, promoting clinical integration.
 
 By generating actionable insights into hallmark activity, OncoMark advances precision oncology, bridging the gap between computational and clinical oncology.
