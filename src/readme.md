@@ -115,7 +115,7 @@ This folder contains various scripts and notebooks used in the preparation, trai
 
 ---
 
-### 12. **`Hallmark_Scoring_scRNASeq.ipynb`**
+### 13. **`Hallmark_Scoring_scRNASeq.ipynb`**
 
 * **Purpose**:
 
