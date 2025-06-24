@@ -115,5 +115,13 @@ This folder contains various scripts and notebooks used in the preparation, trai
 
 ---
 
+### 12. **`Hallmark_Scoring_scRNASeq.ipynb`**
+
+* **Purpose**:
+
+  * Contains code for calculating **hallmark signature scores** in scRNASeq using the **UCell** method in Python.
+
+---
+
 ## Usage
 Each file is self-contained and should be executed in the specified order to reproduce results and analyses as per the OncoMark project. Refer to the accompanying documentation or comments within each file for additional guidance.
