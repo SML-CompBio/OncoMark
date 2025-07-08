@@ -1,4 +1,4 @@
-This folder contains source data for creation of all the images in the main manuscript.
+This folder contains source data used for generating all the images in the main manuscript.
 
 The collated gene sets for each of the 10 hallmark is in Source_Data_1.
 
