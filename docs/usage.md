@@ -2,6 +2,8 @@
 
 OncoMark provides a Python API and a web interface to quantify hallmark activity from transcriptomics data. This page outlines how to use both interfaces effectively.
 
+> ❗ Do **not** use the raw model file from GitHub directly — the Python API or web-server is required to ensure preprocessing are done correctly.
+
 ---
 
 ### Example Data
