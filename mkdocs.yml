@@ -3,3 +3,9 @@ repo_url: https://github.com/SML-CompBio/OncoMark
 site_author: 'Shreyansh Priyadarshi'
 docs_dir: 'docs'
 theme: readthedocs
+nav:
+  - Home: index.md
+  - Workflow: workflow.md
+  - Installation: installation.md
+  - Usage: usage.md
+  - Single-Cell Support: Single-Cell Support.md
