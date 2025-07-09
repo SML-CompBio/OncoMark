@@ -5,7 +5,7 @@ docs_dir: 'docs'
 theme: readthedocs
 nav:
   - Home: index.md
-  - Workflow: workflow.md
+  - Workflow: dataset.md
   - Installation: installation.md
   - Usage: usage.md
   - Single-Cell Support: Single-Cell Support.md
