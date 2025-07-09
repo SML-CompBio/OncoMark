@@ -1,6 +1,6 @@
 ## Single-Cell Support
 
-The **OncoMark** tool is specifically designed for **bulk transcriptomics** data and is **not directly applicable** to raw single-cell RNA-seq (scRNA-seq) datasets, since **Hallmark gene sets** represent coordinated biological programs best captured at the population level.
+The **OncoMark** tool is specifically designed for **bulk transcriptomics** data and is **not directly applicable** to raw single-cell RNA-seq (scRNA-seq) datasets, since Hallmarks represent coordinated biological programs best captured at the population level.
 
 However, if you are working with **single-cell transcriptomic data from patient samples**, there are several strategies to adapt OncoMark or Hallmark analysis for meaningful interpretation:
 
