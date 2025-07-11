@@ -21,10 +21,10 @@ calculate_and_save_scores <- function(folder_path) {
   }
   
   # Convert to dataframe
-  exp_data_df <- as.matrix(readMM(mtx_files[1]))
-  rownames(exp_data_df) <- make.unique(toupper(genes$V1), sep = "_")
+  exp_data_df <- readMM(mtx_files[1])
+  exp_data_df <- as(exp_data_df, "CsparseMatrix")
+  rownames(exp_data_df) <- genes
   colnames(exp_data_df) <- rownames(cells)
-  exp_data_df <- exp_data_df[!duplicated(rownames(exp_data_df)), ]
   
   # Calculate scores
   u.scores1 <- ScoreSignatures_UCell(exp_data_df, features = geneSets, ncores = 10)
