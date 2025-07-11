@@ -1,6 +1,6 @@
 This folder contains source data used for generating all the images in the main manuscript.
 
-The collated gene sets for each of the 10 hallmark is in Source_Data_1.
+The collated gene sets for each of the 10 hallmark is in hallmark_surv_curated.csv.
 
 The source Data for Figure 2 is in Source_Data_2.
 
