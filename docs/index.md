@@ -10,7 +10,7 @@
 
 The detailed overview of OncoMark is provided in the following video:
 
-<div style="width: 100%;">
+<div style="padding:42.86% 0 0 0;position:relative;">
   <iframe src="https://player.vimeo.com/video/1083725494?h=a8c71d9875&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
     frameborder="0" 
     allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" 
@@ -21,11 +21,9 @@ The detailed overview of OncoMark is provided in the following video:
 
 <script src="https://player.vimeo.com/api/player.js"></script>
 
-<br>
-
 The podcast discussing OncoMark is linked below:
 
-<audio controls style="padding:42.86% 0 0 0;position:relative;">
+<audio controls style="width: 100%;">
   <source src="https://github.com/SML-CompBio/OncoMark/raw/refs/heads/main/docs/OncoMark_%20Predicting%20Cancer%20Hallmarks%20with%20Neural%20Multi-Task%20Learning.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
