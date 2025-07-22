@@ -1,6 +1,7 @@
 ## Installation
 
 OncoMark is built on the deep learning framework [TensorFlow](https://www.tensorflow.org/). It is important to install a suitable version of TensorFlow depending on your compute platform (CPU/GPU) and Python environment. The [official TensorFlow installation guide](https://www.tensorflow.org/install) provides detailed instructions.
+> ❗ Use Python v3.11.0 and Tensorflow v2.18.0
 
 ### Step 1: Install TensorFlow
 Visit the [TensorFlow installation guide](https://www.tensorflow.org/install) to choose the appropriate version for your system.
