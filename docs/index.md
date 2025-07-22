@@ -23,7 +23,7 @@ The detailed overview of OncoMark is provided in the following video:
 
 <br>
 <audio controls>
-  <source src="https://raw.githubusercontent.com/SML-CompBio/OncoMark/blob/main/docs/OncoMark_%20Predicting%20Cancer%20Hallmarks%20with%20Neural%20Multi-Task%20Learning.mp3" type="audio/mpeg">
+  <source src="https://github.com/SML-CompBio/OncoMark/raw/refs/heads/main/docs/OncoMark_%20Predicting%20Cancer%20Hallmarks%20with%20Neural%20Multi-Task%20Learning.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 <!--
