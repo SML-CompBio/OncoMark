@@ -10,7 +10,7 @@
 
 The detailed overview of OncoMark is provided in the following video:
 
-<div style="padding:42.86% 0 0 0;position:relative;">
+<div style="width: 100%;">
   <iframe src="https://player.vimeo.com/video/1083725494?h=a8c71d9875&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
     frameborder="0" 
     allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" 
