@@ -27,7 +27,6 @@ The podcast discussing OncoMark can be listened below:
 <audio controls style="width: 100%;">
   <source src="https://github.com/SML-CompBio/OncoMark/raw/refs/heads/main/docs/OncoMark_%20Predicting%20Cancer%20Hallmarks%20with%20Neural%20Multi-Task%20Learning.mp3" type="audio/mpeg">
 </audio>
-<br>
 
 ---
 
