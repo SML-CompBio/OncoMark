@@ -28,13 +28,11 @@ The podcast discussing OncoMark can be listened below:
   Your browser does not support the audio element.
 </audio>
 <br>
-<!--
-Developed through a collaborative effort between the research groups of [Prof. Shubhasis Haldar](https://www.shubhasis-haldar-cmt.com/) at the [SN Bose National Centre for Basic Sciences](https://www.bose.res.in/) and [Prof. Debayan Gupta](https://debayangupta.com/) at [Ashoka University](https://www.ashoka.edu.in/home/), OncoMark leverages cutting-edge computational methods to address the limitations of current molecular oncology approaches. This tool integrates state-of-the-art deep learning methodologies with domain-specific insights to enable precise and scalable hallmark analysis, advancing cancer diagnostics and treatment planning.
+OncoMark was conducted as the Postgraduate Diploma thesis of [Shreyansh Priyadarshi](https://iamspriyadarshi.github.io/) at [Ashoka University](https://www.ashoka.edu.in/home/) under the joint supervision of [Prof. Shubhasis Haldar](https://www.shubhasis-haldar-cmt.com/) from [SN Bose National Centre for Basic Sciences](https://www.bose.res.in/) and [Prof. Debayan Gupta](https://debayangupta.com/) from [Ashoka University](https://www.ashoka.edu.in/home/).
 
 For more information about **OncoMark**, read the related article:  
 **[Robust Prediction of Patient-Specific Cancer Hallmarks Using Neural Multi-Task Learning: a model development and validation study](https://www.biorxiv.org/content/10.1101/2025.02.03.636380v1)**  
 Available at *bioRxiv*.
--->
 
 ---
 
