@@ -26,11 +26,10 @@ The podcast discussing OncoMark can be listened below:
 
 <audio controls style="width: 100%;">
   <source src="https://github.com/SML-CompBio/OncoMark/raw/refs/heads/main/docs/OncoMark_%20Predicting%20Cancer%20Hallmarks%20with%20Neural%20Multi-Task%20Learning.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
 </audio>
 <br>
 
-OncoMark was conducted as the Postgraduate Diploma thesis of [Shreyansh Priyadarshi](https://iamspriyadarshi.github.io/) at [Ashoka University](https://www.ashoka.edu.in/home/) under the joint supervision of [Prof. Shubhasis Haldar](https://www.shubhasis-haldar-cmt.com/) from [SN Bose National Centre for Basic Sciences](https://www.bose.res.in/) and [Prof. Debayan Gupta](https://debayangupta.com/) from [Ashoka University](https://www.ashoka.edu.in/home/).
+OncoMark was conducted as the Postgraduate Diploma thesis of [Shreyansh Priyadarshi](https://iamspriyadarshi.github.io/) at [Ashoka University](https://www.ashoka.edu.in/home/), under the joint supervision of [Prof. Shubhasis Haldar](https://www.shubhasis-haldar-cmt.com/) from [SN Bose National Centre for Basic Sciences](https://www.bose.res.in/) and [Prof. Debayan Gupta](https://debayangupta.com/) from [Ashoka University](https://www.ashoka.edu.in/home/).
 
 For more information about **OncoMark**, read the related article:  
 **[Robust Prediction of Patient-Specific Cancer Hallmarks Using Neural Multi-Task Learning: a model development and validation study](https://www.biorxiv.org/content/10.1101/2025.02.03.636380v1)**  
