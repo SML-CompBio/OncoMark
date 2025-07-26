@@ -8,7 +8,7 @@
 
 **OncoMark** is an advanced computational tool designed to predict cancer hallmark activity from transcriptomic data derived from biopsy samples. Built on a robust **neural multi-task learning (N-MTL) framework**, OncoMark bridges a critical gap in molecular oncology by offering a comprehensive model to annotate and interpret hallmark activity for individual tumors. 
 
-The study was conducted as the Postgraduate Diploma thesis of [Shreyansh Priyadarshi](https://iamspriyadarshi.github.io/) at [Ashoka University](https://www.ashoka.edu.in/home/), under the joint supervision of [Prof. Shubhasis Haldar](https://www.shubhasis-haldar-cmt.com/) from [SN Bose National Centre for Basic Sciences](https://www.bose.res.in/) and [Prof. Debayan Gupta](https://debayangupta.com/) from [Ashoka University](https://www.ashoka.edu.in/home/).
+The study was conducted as the Postgraduate Diploma thesis of [Shreyansh Priyadarshi](https://iamspriyadarshi.github.io/) at [Ashoka University](https://www.ashoka.edu.in/home/), under the joint supervision of [Prof. Shubhasis Haldar](https://www.shubhasis-haldar-cmt.com/) from [SN Bose National Centre for Basic Sciences](https://www.bose.res.in/) and [Prof. Debayan Gupta](https://www.ashoka.edu.in/profile/debayan-gupta/) from [Ashoka University](https://www.ashoka.edu.in/home/).
 
 For more information about **OncoMark**, read the related article:  
 **[Robust Prediction of Patient-Specific Cancer Hallmarks Using Neural Multi-Task Learning: a model development and validation study](https://www.biorxiv.org/content/10.1101/2025.02.03.636380v1)**  
