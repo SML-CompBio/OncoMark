@@ -75,16 +75,7 @@ You can use the hosted web server to upload your data and obtain hallmark activi
 
 The comprehensive video detailing how to use OncoMark web-server is embedded below:
 
-<div style="padding:42.86% 0 0 0;position:relative;">
-  <iframe src="https://player.vimeo.com/video/1083623369?h=3bc9b08821&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
-    frameborder="0" 
-    allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" 
-    style="position:absolute;top:0;left:0;width:100%;height:100%;" 
-    title="OncoMark_Usage">
-  </iframe>
-</div>
-
-<script src="https://player.vimeo.com/api/player.js"></script>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2jN8opizpnU?si=b0aXlcKWJyFCD3Ic" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
