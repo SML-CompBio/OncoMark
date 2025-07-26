@@ -15,16 +15,7 @@ For more information about **OncoMark**, read the related article:
 
 The detailed overview of OncoMark is provided in the following video:
 
-<div style="padding:42.86% 0 0 0;position:relative;">
-  <iframe src="https://player.vimeo.com/video/1083725494?h=a8c71d9875&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
-    frameborder="0" 
-    allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" 
-    style="position:absolute;top:0;left:0;width:100%;height:100%;" 
-    title="OncoMark Detailed Overview">
-  </iframe>
-</div>
-
-<script src="https://player.vimeo.com/api/player.js"></script>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iKxeyPFrlAk?si=04J5KUzRSAH0o2zZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <br>
 
 The podcast discussing OncoMark can be listened below:
