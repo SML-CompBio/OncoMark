@@ -16,14 +16,12 @@ For more information about **OncoMark**, read the related article:
 The detailed overview of OncoMark is provided in the following video:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iKxeyPFrlAk?si=04J5KUzRSAH0o2zZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<br>
 
 The podcast discussing OncoMark can be listened below:
 
 <audio controls style="width: 100%;">
   <source src="https://github.com/SML-CompBio/OncoMark/raw/refs/heads/main/docs/OncoMark_%20Predicting%20Cancer%20Hallmarks%20with%20Neural%20Multi-Task%20Learning.mp3" type="audio/mpeg">
 </audio>
-<br>
 
 ---
 
