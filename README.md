@@ -5,11 +5,6 @@
 
 **OncoMark** is a deep learning tool designed to systematically quantify hallmark activity using transcriptomics data from routine tumor biopsies. Ideal for applications in oncology research, personalized medicine, and biomarker discovery.
 
-The detailed overview of OncoMark is provided in the following video:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iKxeyPFrlAk?si=04J5KUzRSAH0o2zZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<br>
-
 ---
 
 ## Installation
