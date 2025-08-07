@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/4da8fdff-41dd-49aa-b4f0-32ed1806a3bc" alt="Oncomark Poster">
+  <img src="https://github.com/user-attachments/assets/e12bcab1-3856-4c11-bebe-6fe148dad1b2" alt="Oncomark Poster">
 </div>
 <br>
 
