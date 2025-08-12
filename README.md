@@ -7,6 +7,13 @@
 
 ---
 
+## Documentation
+
+Comprehensive documentation is available at:  
+[OncoMark Documentation](https://oncomark.readthedocs.io/en/latest/)
+
+---
+
 ## Installation
 
 [![PyPI](https://badge.fury.io/py/OncoMark.svg)](https://pypi.org/project/OncoMark/)
@@ -18,13 +25,6 @@ Install OncoMark using pip:
 ```bash
 pip install OncoMark
 ```
-
----
-
-## Documentation
-
-Comprehensive documentation is available at:  
-[OncoMark Documentation](https://oncomark.readthedocs.io/en/latest/)
 
 ---
 
