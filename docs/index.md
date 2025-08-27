@@ -10,8 +10,8 @@
 
 The study was conducted as the Postgraduate Diploma thesis of [Shreyansh Priyadarshi](https://iamspriyadarshi.github.io/) at [Ashoka University](https://www.ashoka.edu.in/home/), under the joint supervision of [Prof. Shubhasis Haldar](https://www.shubhasis-haldar-cmt.com/) from [SN Bose National Centre for Basic Sciences](https://www.bose.res.in/) and [Prof. Debayan Gupta](https://www.ashoka.edu.in/profile/debayan-gupta/) from [Ashoka University](https://www.ashoka.edu.in/home/).
 
-For more information about **OncoMark**, read the related article:  
-**[Robust Prediction of Patient-Specific Cancer Hallmarks Using Neural Multi-Task Learning: a model development and validation study](https://www.biorxiv.org/content/10.1101/2025.02.03.636380v1)**  
+The article related to OncoMark is published in Nature Communications Biology:  
+**[OncoMark: a high-throughput neural multi-task learning framework for comprehensive cancer hallmark quantification](https://doi.org/10.1038/s42003-025-08727-z)**  
 
 The detailed overview of OncoMark is provided in the following video:
 
