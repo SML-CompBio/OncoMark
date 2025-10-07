@@ -66,14 +66,4 @@ We welcome suggestions! If you have any ideas or feedback to improve OncoMark, p
 
 ## Citation
 ```bibtex
-@article {Priyadarshi2025.02.03.636380,
-	author = {Priyadarshi, Shreyansh and Mazumder, Camellia and Neekhra, Bhavesh and Biswas, Sayan and Chowdhury, Debojyoti and Gupta, Debayan and Haldar, Shubhasis},
-	title = {Robust Prediction of Patient-Specific Cancer Hallmarks Using Neural Multi-Task Learning: a model development and validation study},
-	elocation-id = {2025.02.03.636380},
-	year = {2025},
-	doi = {10.1101/2025.02.03.636380},
-	publisher = {Cold Spring Harbor Laboratory}, 
-	URL = {https://www.biorxiv.org/content/early/2025/02/08/2025.02.03.636380},
-	eprint = {https://www.biorxiv.org/content/early/2025/02/08/2025.02.03.636380.full.pdf},
-	journal = {bioRxiv}
-}
+Priyadarshi, S., Mazumder, C., Neekhra, B. et al. OncoMark: a high-throughput neural multi-task learning framework for comprehensive cancer hallmark quantification. Commun Biol 8, 1434 (2025). https://doi.org/10.1038/s42003-025-08727-z
