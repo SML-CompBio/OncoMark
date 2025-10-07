@@ -65,5 +65,4 @@ We welcome suggestions! If you have any ideas or feedback to improve OncoMark, p
 ---
 
 ## Citation
-```bibtex
 Priyadarshi, S., Mazumder, C., Neekhra, B. et al. OncoMark: a high-throughput neural multi-task learning framework for comprehensive cancer hallmark quantification. Commun Biol 8, 1434 (2025). https://doi.org/10.1038/s42003-025-08727-z
